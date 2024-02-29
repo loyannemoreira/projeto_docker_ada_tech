@@ -1,0 +1,50 @@
+version: "3.7"
+
+networks:
+  mongo_network:
+      driver: bridge
+
+volumes:
+  mongo_data: {}
+
+services:
+  mongo:
+    build:
+      context: ./db
+      dockerfile: Dockerfile
+    volumes:
+      - mongo_data:/data/db
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=root
+      - MONGO_INITDB_ROOT_PASSWORD=ada
+      - MONGO_INITDB_DATABASE=cadastro
+    tty: true
+    ports:
+      - "27017:27017"
+    networks:
+      - mongo_network
+
+  mexpress:
+    build:
+      context: ./adm_db
+      dockerfile: Dockerfile
+    depends_on:
+      - mongo
+    restart: always
+    ports:
+      - "8081:8081"
+    networks:
+      - mongo_network
+
+  golang:
+    build:
+      context: ./app
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    tty: true
+    networks:
+      - mongo_network
+
+
+
