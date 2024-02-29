@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # projeto_docker_ada_tech
 Este projeto consiste em uma aplicação de formulário de cadastro desenvolvida em Golang, utilizando MongoDB como banco de dados, e Mongo Express como ferramenta de administração do banco de dados. O principal objetivo é demonstrar como executar e gerenciar uma aplicação em um ambiente de contêineres Docker.
 =======
@@ -6,6 +7,12 @@ Este projeto consiste em uma aplicação de formulário de cadastro desenvolvida
 
 ## Descrição
 Este projeto consiste em uma aplicação de formulário de cadastro desenvolvida em Golang, utilizando MongoDB como banco de dados, e Mongo Express como ferramenta de administração do banco de dados. O principal objetivo é demonstrar como executar e gerenciar uma aplicação em um ambiente de contêineres Docker.
+=======
+# Formulário de Cadastro em Golang com MongoDB
+
+## Descrição
+Este projeto consiste em uma aplicação de formulário de cadastro desenvolvida em Golang, utilizando MongoDB como banco de dados, e Mongo Express como ferramenta de administração do banco de dados. O principal objetivo é demonstrar como executar e gerenciar uma aplicação em um ambiente de contêineres Docker.
+>>>>>>> origin/main
 
 ## Funcionalidades da Aplicação
 
@@ -78,4 +85,7 @@ Durante o desenvolvimento deste projeto, enfrentamos os seguintes desafios e bug
 
 ## Contribuições
 Contribuições são sempre muito bem-vindas! Sinta-se à vontade para enviar sugestões e pull requests para este repositório.
+<<<<<<< HEAD
 >>>>>>> cdcf7d5 (Projeto do módulo de Conteinerização do programa Deva (Ada + b3))
+=======
+>>>>>>> origin/main
