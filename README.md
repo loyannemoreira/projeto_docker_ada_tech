@@ -80,7 +80,4 @@ Durante o desenvolvimento deste projeto, enfrentamos os seguintes desafios e bug
 
 ## Contribuições
 Contribuições são sempre muito bem-vindas! Sinta-se à vontade para enviar sugestões e pull requests para este repositório.
-<<<<<<< HEAD
->>>>>>> cdcf7d5 (Projeto do módulo de Conteinerização do programa Deva (Ada + b3))
-=======
->>>>>>> origin/main
+
